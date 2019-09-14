@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>SW Characterpedia</title>
+</head>
+<body>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">About Star Wars</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                            <p>The Star Wars franchise depicts the adventures of characters "A long time ago in a galaxy far, far away...." in which humans and many species of aliens (often humanoid) co-exist with robots, or "droids", who may assist them in their daily routines, and space travel between planets is common due to hyperspace technology. The rises and falls of different governments are chronicled throughout the saga: the democratic Old Republic is corrupted by Palpatine, who, after orchestrating the 'Clone War' between the government and a Separatist confederation, overthrows the Republic and establishes the Galactic Empire. The Empire is fought by the Rebel Alliance in a Galactic Civil War that spans several years until the apparent defeat of the Emperor. The surviving Rebellion gives rise to the New Republic, while the remnants of the Empire reform as the First Order. Heroes of the former rebellion lead the Resistance against the oppressive dictatorship.</p>
+        
+                            <p>A mystical power known as 'the Force' is described in the original film as "an energy field created by all living things ... that binds the galaxy together." Through training and meditation, those whom "the Force is strong with" are able to perform various superpowers (such as telekinesis, precognition, telepathy, and manipulation of physical energy). The Force is wielded by two major knighthood orders at conflict with each other: the Jedi, who act on the light side of the Force through non-attachment and arbitration, and the Sith, who use the dark side by manipulating fear and aggression. The latter's members are intended to be limited to two: a master and their apprentice.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<div class="container">
+    <h1>Star Wars Characterpedia</h1>
+    <p>Select an episode below from the Star Wars saga to see which characters made an appearance!</p>
+    <h2>Select an Episode, You Will!</h2>
+    <div>
+            <form class="input-group mb-3">    
+                    <div class="input-group-append">
+<div class="buttonDiv">
+                        <!-- Button trigger modal -->
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+        About
+      </button>
+                      <input class="btn btn-outline-warning Episode1" type="submit" id="button-addon2" value="Episode 1"></input>
+                      <input class="btn btn-outline-warning Episode2" type="submit" id="button-addon2" value="Episode 2"></input>
+                      <input class="btn btn-outline-warning Episode3" type="submit" id="button-addon2" value="Episode 3"></input>
+                      <input class="btn btn-outline-warning Episode4" type="submit" id="button-addon2" value="Episode 4"></input>
+                      <input class="btn btn-outline-warning Episode5" type="submit" id="button-addon2" value="Episode 5"></input>
+                      <input class="btn btn-outline-warning Episode6" type="submit" id="button-addon2" value="Episode 6"></input>
+                      <input class="btn btn-outline-warning Episode7" type="submit" id="button-addon2" value="Episode 7"></input>
+                    </div>
+              </form>
+        </div>
+</div>
+    <div class = "main">
+            <iframe class="mainScreen" src="https://giphy.com/embed/l1uguGf2RVIsTXNDO" width="480" height="202" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="infoScreen">
+        </div>
+        <div id="characterList">
+        </div>
+    </div>
+
+</body>
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Boot Strap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--app.JS -->
+<script src=app.js></script>
+</html>
